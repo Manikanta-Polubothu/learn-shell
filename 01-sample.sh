@@ -15,3 +15,9 @@ xyz() {
 xyz 0 1 2
 
 
+if [ $? -eq 0 ]
+then
+  echo SUCCESS
+else
+  echo FAILURE
+fi
