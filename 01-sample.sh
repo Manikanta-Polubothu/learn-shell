@@ -9,15 +9,12 @@ xyz() {
   echo $?
   echo number of arguments - $#
   echo $?
-echo $? = HI
-}
-
-xyz 0 1 2
-
-
-if [ HI -eq 0 ]
+if [ $? -eq 0 ]
 then
   echo SUCCESS
 else
   echo FAILURE
 fi
+}
+
+xyz 0 1 2
