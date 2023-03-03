@@ -1,8 +1,9 @@
-if [ "${name}" = "Devops"]
+
+if [ "${name}" = "Devops" ]
   then
   echo Welcome to Devops Training
-elif [ "${nsme}" = "AWS"]
+ elif [ "${nsme}" = "AWS" ]
   echo welcome to AWS Training
-else
+ else
   echo no course available
 fi
