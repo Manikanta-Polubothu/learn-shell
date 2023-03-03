@@ -1,8 +1,10 @@
 
+read -r -p "Enter your name:" name
+
 if [ "${name}" = "Devops" ]
   then
   echo Welcome to Devops Training
-elif [ "${nsme}" = "AWS" ]
+elif [ "${name}" = "AWS" ]
   then
   echo welcome to AWS Training
 else
